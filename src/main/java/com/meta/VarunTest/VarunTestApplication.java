@@ -10,6 +10,9 @@ public class VarunTestApplication {
 
 		MyFirstService myFirstService = ctx.getBean(MyFirstService.class);
 		System.out.println(myFirstService.tellAStory());
-	}
+		System.out.println(myFirstService.getJavaVersion());
+		System.out.println(myFirstService.getCustomPropertyFromAnotherFile1());
+		System.out.println(myFirstService.getCustomProperty());
 
+	}
 }
